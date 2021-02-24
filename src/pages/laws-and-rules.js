@@ -81,12 +81,6 @@ Every individual shall abide by the laws and legal system of their nation, as we
     Citizens of the Nations SMP shall abide by the laws of their Nation-State or faction, Factions and Nation-States may make their own laws as long as they do not conflict with the server rules. All players within the faction boundaries must comply with these laws under penalty of  faction/server punishments. 
 </T>
 
-<S> Section II</S>
-
-<A>Article IV</A>
-
-<S>Section I</S>
-
     <Link to="/">Go back to the homepage</Link>
 
   </div>
