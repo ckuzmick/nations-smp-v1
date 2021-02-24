@@ -1,59 +1,69 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import NavBar from "../components/layout/nav-bar.js"
+import A from "../components/layout/article"
+import S from "../components/layout/section"
+import T from "../components/layout/law-text"
 
 const SecondPage = () => (
-  <Layout>
-    <SEO title="Laws and Rules" />
-    <h1>Nations SMP Server Rules</h1>
+  <div style={{
+    margin: "30px",
+  }}
+  >
+    <NavBar />
+<br>
+</br>
 
+<A>Article I.</A>
 
-<h1>Article I.</h1>
+<S>Section I</S>
 
-<h2>Section I</h2>
+<T>
+Every individual on the SMP shall have the according rights and freedoms specified in Article 1. Individual rights shall take precedence over the collective rights specified in Article 2
+</T>
 
-<p>
-Every individual on the SMP shall have the according rights and freedoms specified in Article 1 Sections 2-. Individual rights shall take precedence over the collective rights specified in Article 2
-</p>
+<S>Section II</S>
 
-<h2>Section II</h2>
-
-<p>
+<T>
 Every individual shall be allowed to have freedom of speech, assembly, and thought. As well as the freedom to move, remain, and leave any Nation-State as well as to seek a livelihood in any Nation-State.
-</p>
+</T>
 
-<h2>Section III</h2>
+<S>Section III</S>
 
-<p>
+<T>
 Every individual shall abide by the laws and legal system of their nation, as well as the criminal law specified in Article 3.
-</p>
+</T>
 
-<h1>Article II.</h1>
+<A>Article II.</A>
 
-<h2>Section I</h2>
+<S>Section I</S>
 
-<p>
+<T>
     Each Nation-State is required to have at least 2 active players residing in it at all times, and it is also required that there shall be no more than 1,500 blocks in residence for each player. Each Nation-State has a player count of no more than 25% of the active players. Should the active player count change so that a nation-state has more than 25% of the active player count, the Nation-state’s block count will be decreased accordingly within the timeframe of 2 weeks and all builds in those areas will be allowed to be deconstructed without conflict within the timeframe regardless.
-</p>
+</T>
 
-<h2>Section II</h2>
-<p>
+<S>Section II</S>
+
+<T>
     	When a player is transferring Nations all of their items shall be allowed to transfer, however builds made in the area that no longer belong to their former Nation will be stripped of all expensive and annoying items and those items will be transferred to the player and/or the Nation. The build will be allowed to be deconstructed if so chosen or it will be left to the server community.
-</p>
+</T>
 
-<h2>Section III</h2>
+<S>Section III</S>
 
-<p>
+<T>
     	All players may enter, leave and join any Nation-state of their chosing however once they leave conditions may apply. See below:
-</p>
+</T>
 
-<p>
+<T>
     Factions may choose any of these conditions to apply to any player in or outside and inside the faction. 
-</p>
+</T>
 
-<ul>
+<ul style={{
+          fontFamily: "Benne",
+          fontSize: "25px",
+          letterSpacing: "2px",
+          lineHeight: "1.1"
+      }}>
   <li>Free passage and entry, may seek asylum</li>
   <li>Free passage and entry, may seek asylum. But not allowed to build.</li>
   <li>Entry is forbidden, no exceptions</li>
@@ -63,26 +73,23 @@ Every individual shall abide by the laws and legal system of their nation, as we
   <li>Neutral, allowed inside faction areas but if they provoke the faction or break a law inside the area violence may ensue depentent on the context.</li>
 </ul>
 
-<h1>Article III</h1>
+<A>Article III</A>
 
-<h2>Section I</h2>
+<S>Section I</S>
 
-<p>
+<T>
     Citizens of the Nations SMP shall abide by the laws of their Nation-State or faction, Factions and Nation-States may make their own laws as long as they do not conflict with the server rules. All players within the faction boundaries must comply with these laws under penalty of  faction/server punishments. 
-</p>
+</T>
 
-<h2> Section II</h2>
+<S> Section II</S>
 
+<A>Article IV</A>
 
-<h1>Article IV</h1>
-
-<p>
-Every individual on the SMP shall have the according rights and freedoms specified in Article 1. Individual rights shall take precedence over the collective rights specified in Article 2.
-</p>
+<S>Section I</S>
 
     <Link to="/">Go back to the homepage</Link>
 
-  </Layout>
+  </div>
 )
 
 export default SecondPage
