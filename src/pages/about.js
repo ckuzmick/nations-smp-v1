@@ -3,12 +3,15 @@ import NavBar from "../components/layout/nav-bar.js"
 import "@fontsource/montserrat"
 import "@fontsource/open-sans"
 import { link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const About = () => (
   <div style={{
     margin: "30px",
   }}
   >
+
+    <Helmet title="About Us | Nations SMP"></Helmet> 
       <NavBar />
     <h1 style={{
       fontFamily: "Montserrat",

@@ -4,12 +4,16 @@ import NavBar from "../components/layout/nav-bar.js"
 import A from "../components/layout/article"
 import S from "../components/layout/section"
 import T from "../components/layout/law-text"
+import { Helmet } from "react-helmet"
 
 const SecondPage = () => (
   <div style={{
     margin: "30px",
   }}
+
   >
+
+    <Helmet title="Laws & Rules | Nations SMP"></Helmet>
     <NavBar />
 <br>
 </br>
