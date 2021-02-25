@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import NavBar from "../components/layout/nav-bar.js"
 import "@fontsource/montserrat"
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => (
   <div style={{
@@ -9,6 +10,7 @@ const IndexPage = () => (
   }}
   
   >
+    <Helmet title="Home | Nations SMP"></Helmet>
     <NavBar />
     <br />
     <br />
