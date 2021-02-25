@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import NavBar from "../components/layout/nav-bar.js"
+import "@fontsource/montserrat"
 
 const IndexPage = () => (
   <div style={{
@@ -9,13 +10,21 @@ const IndexPage = () => (
   
   >
     <NavBar />
-    <img src=".../nations-logo"></img>
-    <h1>Nations SMP</h1>
-    <p>This is the website for the nations smp!</p>
-    <p>Now go build something great.</p>
+    <br />
+    <br />
+    <img src="/nations-logo.png" style={{
+
+      width: "700px"
+
+    }}></img>
+    <p style={{
+
+      fontFamily: "Montserrat",
+      fontSize: "25px"
+
+    }}>This is the website for the nations SMP!</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45em` }}>
     </div>
-    <Link to="/laws-and-rules/">Go to Laws & Rules</Link> <br />
   </div>
 )
 
