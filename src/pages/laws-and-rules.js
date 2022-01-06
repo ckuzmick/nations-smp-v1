@@ -90,4 +90,4 @@ Every individual shall abide by the laws and legal system of their nation, as we
   </div>
 )
 
-export default SecondPage
+export default LawsPage
